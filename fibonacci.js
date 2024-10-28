@@ -1,4 +1,3 @@
-
 function fibs(n) {
     const fibArray = [0, 1];
     for(let i = 2; i < n; i++) {
@@ -21,4 +20,5 @@ function fibsRec(n) {
     return fibRecArray;
 }
 
+console.log("This was printed recursively");
 console.log(fibsRec(8))
